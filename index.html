@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html
+  <head>
+    <title>Angel Manuel Perez Taveras - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Angel Manuel Perez Taveras
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          angelmanuela925y@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +809-906-8196
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu"href="#projects">Projects</a>
+          <a class="topmenu"href="#educations"></Em>Educations</a>
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://i.pinimg.com/originals/54/e3/7d/54e37d8074ebcde1d96c77d7b2a7f310.gif" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Angel Manuel! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+          </h1>
+          <p>
+            Passionate and dedicated junior software developer with some experience in JavaScript, equipped with a solid foundation in data analysis. 
+            Currently pursuing a degree in Software Engineering and various certifications from Coursera, including Google Data Analytics and IBM Full-Stack JavaScript Developer Professional Certificate. 
+            Strong problem-solving abilities with an eagerness to grow and contribute to software development projects.
+
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>5 Months experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>5 Months experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png"/>
+          <h6>CSS</h6>
+          <p>5 Months experience</p>
+        </div>  
+        
+
+
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="educations">
+      <h2>Education</h2>
+      <div style="clear:both;"></div>
+
+      <div class="skill">
+        <img src="https://www.uapa.edu.do/wp-content/uploads/2022/06/Logo-azul-UAPA.png"/>
+        <h6>College Uapa
+          Software Engineering
+        </h6>
+        <p>2024-2028</p>
+      </div>  
+
+      <div class="skill">
+        <img src="https://www.ibm.com/brand/experience-guides/developer/8f4e3cc2b5d52354a6d43c8edba1e3c9/02_8-bar-reverse.svg"/>
+        <h6>IBM Full-Stack JavaScript Developer Professional Certificate</h6>
+        <p>2025 february </p>
+      </div> 
+
+      <div class="skill">
+        <img src="https://media.licdn.com/dms/image/D5612AQF0XNnsFODkjA/article-cover_image-shrink_600_2000/0/1658123689915?e=2147483647&v=beta&t=YGAt1vyPVwvkkQVR1Nksq9NW3G-zdcXBoAqoGMe4iB4"/>
+        <h6>Google Data Analytics Specialization</h6>
+        <p>2024 october</p>
+      </div> 
+
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Psychology page</h3>
+            <ul>
+              <li>Developed a page for a local psychology</li>
+            </ul>
+          </div>
+          
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3><!-- Add appropriate text here--></h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
